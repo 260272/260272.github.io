@@ -1,0 +1,27 @@
+.introBackground {
+    position: fixed; /* 使元素固定在页面上的特定位置 */
+    top: 109px; /* 距离页面顶部10像素 */
+    left: 120px; /* 距离页面右边10像素 */
+    width: 770px; /* 区域的宽度 */
+    height: 500px; /* 区域的高度 */
+    background-color: #a0ffc6; /* 背景颜色 */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5); /* 添加一些阴影效果 */
+    padding: 10px; /* 内部的填充 */
+    z-index: 100; /* 确保这个区域在其他内容之上 */
+}
+
+.introBackground li{
+    padding-right: 20px;
+    padding-left: 20px;
+    margin: 20px;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.introBackground a{
+    text-decoration: none;
+    color:black;
+    font-weight: bold;
+    font-size: 23px;
+}
+
